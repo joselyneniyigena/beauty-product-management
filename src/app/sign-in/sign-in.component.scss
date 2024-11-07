@@ -1,0 +1,16 @@
+.card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  
+  button {
+    background-color: #ff4081;
+    border: none;
+  
+    &:hover {
+      background-color: #ff79a6;
+    }
+  }
+  

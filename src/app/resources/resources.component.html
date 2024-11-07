@@ -1,0 +1,11 @@
+<div class="resources-container">
+    <h2>Resources & Help</h2>
+    <div class="faq-section">
+      <h3>Frequently Asked Questions</h3>
+      <div *ngFor="let faq of faqs" class="faq-item">
+        <h4>{{ faq.question }}</h4>
+        <p>{{ faq.answer }}</p>
+      </div>
+    </div>
+  </div>
+  

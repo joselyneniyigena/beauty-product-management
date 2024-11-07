@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>User Profile</h2>
+    <p>Username: {{user?.username}}</p>
+    <p>Email: {{user?.email}}</p>
+    
+    <h3>Past Orders</h3>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let order of pastOrders">
+        <p>Order ID: {{order.id}} - Total: ${{order.totalAmount}}</p>
+        <p>Order Date: {{order.orderDate}}</p>
+        <button class="btn btn-link">View Details</button>
+      </li>
+    </ul>
+  </div>
+  
